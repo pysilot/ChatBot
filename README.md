@@ -11,14 +11,14 @@ ChatBot
 <p> [LƯU Ý]: Nền tảng sử dụng: VISUAL STUDIO </p> 
 <p> [1] Tải file chat_ui.py </p> 
 <p> [2] Chạy lệnh command: streamlit run chat_ui.py </p> 
-hoặc 
-py -m streamlit run chat_ui.py 
-[3] Lịch sử các đoạn chat sẽ được lưu tại lichsuchat.json
+<p> hoặc </p> 
+<p> py -m streamlit run chat_ui.py </p>
+<p> [3] Lịch sử các đoạn chat sẽ được lưu tại lichsuchat.json </p>
 
-HOW TO USE - 
-[NOTE]: Environment: VISUAL STUDIO 
-[1] Download chat_ui.py 
-[2] Run Command: streamlit run chat_ui.py 
-or 
-py -m streamlit run chat_ui.py 
-[3] Chat history save in lichsuchat.json
+<p> HOW TO USE - </p> 
+<p> [NOTE]: Environment: VISUAL STUDIO </p> 
+<p> [1] Download chat_ui.py </p>
+<p> [2] Run Command: streamlit run chat_ui.py </p>
+<p> or </p> 
+<p> py -m streamlit run chat_ui.py </p>
+<p> [3] Chat history save in lichsuchat.json </p>
