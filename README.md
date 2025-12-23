@@ -1,4 +1,4 @@
-*Trường Đại học Khoa học tự nhiên, ĐHQG-HCM*
+<p>*Trường Đại học Khoa học tự nhiên, ĐHQG-HCM* </p>
 *Đồ án Nhập môn Công nghệ thông tin 
 ChatBot - Nhóm 5*
 
