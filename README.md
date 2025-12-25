@@ -2,6 +2,7 @@
 <p> <em> Đồ án 
 ChatBot - Nhóm 5 </em> </p>
 
+
 ## I. Cài đặt và thiết lập môi trường Streamlit
 
 1. Thiết lập môi trường
@@ -17,7 +18,27 @@ cd ChatBot
 ```
 pip install -r requirements.txt
 ```
-## II. Khởi động sever
+
+## II. Cấu trúc mã nguồn và sơ đồ của hệ thống
+
+### *Cấu trúc mã nguồn*
+
+<pre>
+├── requirements.txt
+├── README.md
+└── src
+    ├── backend
+    │    └── Gpt_oss_&_pinggy_&_ngrok.ipynb
+    ├── ui
+    │    └── chat_ui.py
+    └──.DS_Store
+</pre>
+<br>
+
+### *Sơ đồ hệ thống*
+<img width="2084" height="998" alt="Sơ đồ Tổng Thể Hệ Thống Chatbot Streamlit với Ollama - visual selection" src="https://github.com/user-attachments/assets/7e14fbb6-c132-4cc7-b5f5-9760823971ea" />
+
+## III. Khởi động sever
 **Bước 1**. Vào Google Colab, chọn New Notebook và chọn tệp ``Gpt_oss_&_pinggy_&_ngrok.ipynb`` 
 
 **Bước 2**. Chọn GPU T4 và Runtime type là Python 3
@@ -37,7 +58,7 @@ ssh -p 443 -R0:localhost:11434 [qr@a.pin](mailto:qr@a.pin)
 
 
 
-## III. Khởi động giao diện sử dụng Chatbot
+## IV. Khởi động giao diện sử dụng Chatbot
 **Bước 1**. Sao chép đường link pinggy vào mô hình chatbot trong file chat_ui.py tại dòng 13 ``API_URL = "/api/generate"``
 
 <img width="582" height="134" alt="image" src="https://github.com/user-attachments/assets/f514b61a-30e8-42eb-a472-44d871941510" />
@@ -53,17 +74,6 @@ hoặc
 py -m streamlit run chat_ui.py
 ```
 
-## IV. Cấu trúc mã nguồn
-<pre>
-├── requirements.txt
-├── README.md
-└── src
-    ├── backend
-    │    └── Gpt_oss_&_pinggy_&_ngrok.ipynb
-    ├── ui
-    │    └── chat_ui.py
-    └──.DS_Store
-</pre>
 
 ## V. Một số hình ảnh khi sử dụng ChatBot
 
@@ -72,6 +82,6 @@ py -m streamlit run chat_ui.py
 
 <img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/24dbaebc-cbd0-4082-92a2-ec9f363165d2" />
 
-## V. Tiến độ Đồ án
+## VI. Tiến độ Đồ án
 <img width="1292" height="380" alt="screenshot_1762838054" src="https://github.com/user-attachments/assets/7ef19393-c680-4b63-bd65-c0c4509288b0" />
 
